@@ -8,7 +8,7 @@ A starter template for creating a new React Hook.
 ## 🚀 Getting Started
 
 ### tl;dr
-* `git clone https://github.com/colbyfayock/use-custom-hook [directory]`
+* `git clone https://github.com/colbyfayock/use-beginner-guidance [directory]`
 * `cd [directory]`
 * `yarn install && yarn setup`
 * `cd [hook-name] && npm publish`
@@ -17,7 +17,7 @@ A starter template for creating a new React Hook.
 * Clone the `useCustomHook` repo locally and navigate to the project
 
 ```
-git clone https://github.com/colbyfayock/use-custom-hook [directory]
+git clone https://github.com/colbyfayock/use-beginner-guidance [directory]
 cd [directory]
 ```
 
@@ -33,7 +33,7 @@ yarn install
 yarn setup
 ```
 
-During this process, the scripts will ask you for your name and your custom hook's name, including both a camelCase variation (useCustomHook) and a snake-case variation (use-custom-hook).
+During this process, the scripts will ask you for your name and your custom hook's name, including both a camelCase variation (useCustomHook) and a snake-case variation (use-beginner-guidance).
 
 It will replace all instances of the default useCustomHook name with your chosen name. Additionally, it will replace the name in the license and author name in the hook's `package.json` file with your name.
 
@@ -50,7 +50,7 @@ Running `yarn develop` in the root of this project will kick off a watch command
 There's an example app set up in the `example` directory. You can use this space to add examples and any preferred documentation for your custom hook.
 
 ### Publishing
-* Navigate to your hook directory (default is use-custom-hook)
+* Navigate to your hook directory (default is use-beginner-guidance)
 
 ```
 cd [hook-name]
@@ -80,7 +80,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://colbyfayock.com/newsletter"><img src="https://avatars2.githubusercontent.com/u/1045274?v=4" width="100px;" alt=""/><br /><sub><b>Colby Fayock</b></sub></a><br /><a href="https://github.com/colbyfayock/use-custom-hook/commits?author=colbyfayock" title="Code">💻</a> <a href="https://github.com/colbyfayock/use-custom-hook/commits?author=colbyfayock" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://colbyfayock.com/newsletter"><img src="https://avatars2.githubusercontent.com/u/1045274?v=4" width="100px;" alt=""/><br /><sub><b>Colby Fayock</b></sub></a><br /><a href="https://github.com/colbyfayock/use-beginner-guidance/commits?author=colbyfayock" title="Code">💻</a> <a href="https://github.com/colbyfayock/use-beginner-guidance/commits?author=colbyfayock" title="Documentation">📖</a></td>
   </tr>
 </table>
 

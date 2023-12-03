@@ -5,7 +5,7 @@ const prompt = require('prompt');
 const { exec } = require('child_process');
 
 const DEFAULT_AUTHOR_NAME = 'Colby Fayock';
-const DEFAULT_NAME_SNAKE = 'use-custom-hook';
+const DEFAULT_NAME_SNAKE = 'use-beginner-guidance';
 const DEFAULT_NAME_CAMEL = 'useCustomHook';
 
 const filesWithAuthorName = [
@@ -80,7 +80,7 @@ const pathsToCommit = [
     }
   ]);
 
-  console.log('What is the hook name in snake-case (ex: use-custom-hook)?');
+  console.log('What is the hook name in snake-case (ex: use-beginner-guidance)?');
 
   const { nameSnakeCase } = await getPrompt([
     {
@@ -217,7 +217,7 @@ const pathsToCommit = [
 
   console.log('> Committing');
 
-  await promiseToExec('git commit -m "[use-custom-hook] Initialized Project"');
+  await promiseToExec('git commit -m "[use-beginner-guidance] Initialized Project"');
 
   console.log('Done.');
 })();
